@@ -8,9 +8,7 @@ profile:
   align: right
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>pronouns: she/her</p>
-
+  more_info: 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
@@ -20,18 +18,14 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I am a first year Ph.D. student of Informatics at Indiana University, at the [Center for Complex Networks and Systems](https://cnets.indiana.edu/) in the Luddy School of Informatics, Computing and Engineering. I am currently supervised by Prof. Filippo Radicchi as a part of the [Radicchi-Fortunato lab](https://www.researchgate.net/lab/Radicchi-Fortunato-Lab-Filippo-Radicchi) and I work on transportation networks.
+Hi! I am a first year Ph.D. student of Informatics at Indiana University, at the [Center for Complex Networks and Systems](https://cnets.indiana.edu/) in the Luddy School of Informatics, Computing and Engineering. I am currently supervised by [Prof. Filippo Radicchi](https://homes.luddy.indiana.edu/filiradi/index.html) as a part of the [Radicchi-Fortunato lab](https://www.researchgate.net/lab/Radicchi-Fortunato-Lab-Filippo-Radicchi) and I work on transportation networks, studying road networks and bridges in the US. 
 My research interests lie in Network Science, Complex Systems, and their applications across different systems. 
 
 I received my Master's in Physics at the Bonn-Cologne Graduate School of Physics and Astronomy at the University of Bonn in Germany, where I completed my master's thesis on optimal networks supervised by [Prof. Dr. Dirk Witthaut](https://www.fz-juelich.de/profile/witthaut_d) as a part of the [Energy Networks and Complex Systems Group](https://www.fz-juelich.de/en/ice/ice-1/research/research-groups/energy-networks-and-complex-systems) at Forschungszentrum Jülich and the University of Cologne. 
 
-Prior to that, I received my Bachelor's in Physics with interdisciplinary studied in Media and Politics at Azim Premji University in Bangalore, India. I specialized in nonlinear dynamics and my undergraduate thesis was on Taylor-Couette flow supervised by [Dr. Kaustubh Manchanda](https://www.linkedin.com/in/kaustubh-manchanda-18467890/?originalSubdomain=in)
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Prior to that, I received my Bachelor's in Physics with interdisciplinary studied in Media and Politics at Azim Premji University in Bangalore, India. I specialized in nonlinear dynamics and my undergraduate thesis was on Taylor-Couette flow supervised by [Dr. Kaustubh Manchanda](https://www.linkedin.com/in/kaustubh-manchanda-18467890/?originalSubdomain=in).
