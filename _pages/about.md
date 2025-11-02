@@ -6,10 +6,10 @@ subtitle: Network Science | Complex Systems | Physics | Informatics
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Bloomington, Indiana</p>
+    <p>pronouns: she/her</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -25,7 +25,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I am a first year Ph.D. student of Informatics at Indiana University, at the [Center for Complex Networks and Systems](https://cnets.indiana.edu/) in the Luddy School of Informatics, Computing and Engineering. I am currently supervised by Prof. Filippo Radicchi as a part of the [Radicchi-Fortunato lab](https://www.researchgate.net/lab/Radicchi-Fortunato-Lab-Filippo-Radicchi) and I work on transportation networks.
+My research interests lie in Network Science, Complex Systems, and their applications across different systems. 
+
+I received my Master's in Physics at the Bonn-Cologne Graduate School of Physics and Astronomy at the University of Bonn in Germany, where I completed my master's thesis on optimal networks supervised by [Prof. Dr. Dirk Witthaut](https://www.fz-juelich.de/profile/witthaut_d) as a part of the [Energy Networks and Complex Systems Group](https://www.fz-juelich.de/en/ice/ice-1/research/research-groups/energy-networks-and-complex-systems) at Forschungszentrum Jülich and the University of Cologne. 
+
+Prior to that, I received my Bachelor's in Physics with interdisciplinary studied in Media and Politics at Azim Premji University in Bangalore, India. I specialized in nonlinear dynamics and my undergraduate thesis was on Taylor-Couette flow supervised by [Dr. Kaustubh Manchanda](https://www.linkedin.com/in/kaustubh-manchanda-18467890/?originalSubdomain=in)
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
