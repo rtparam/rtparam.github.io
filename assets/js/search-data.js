@@ -450,7 +450,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/Aarathi Parameswaran", "_blank");
+          window.open("https://www.linkedin.com/in/aarathip", "_blank");
         },
       },{
         id: 'social-scholar',
