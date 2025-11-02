@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://rtparam.github.io/aarathiparam.github.io//sitemap.xml
+Sitemap: aarathiparam.com/sitemap.xml
