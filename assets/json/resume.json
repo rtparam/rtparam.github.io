@@ -1,200 +1,191 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "name": "Aarathi Parameswaran",
+    "label": "PhD Student in Informatics",
+    "email": "aarathiparameswaran@gmail.com",
+    "url": "https://rtparam.github.io/",
+    "summary": "Network Science, Complex Systems, Physics, Informatics"
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "institution": "Indiana University Bloomington",
+      "location": "Indiana, USA",
+      "url": "https://luddy.indiana.edu/",
+      "area": "Complex Networks and Systems",
+      "studyType": "Ph.D. in Informatics",
+      "startDate": "2025",
+      "endDate": "present",
+      "courses": []
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
+      "institution": "University of Bonn",
+      "location": "Bonn, Germany",
+      "url": "https://www.uni-bonn.de/",
+      "area": "Theoretical and Experimental Physics, Network Science",
+      "studyType": "M.Sc. in Physics",
+      "startDate": "2022",
+      "endDate": "2025",
+      "courses": [
+        "Advanced Quantum Theory",
+        "Particle Physics",
+        "Statistical Data Analysis",
+        "Complex Networks and Energy Grids",
         "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Quantum Optics",
+        "Theoretical Neuroscience",
+        "Energy Production"
+      ]
+    },
+    {
+      "institution": "Azim Premji University",
+      "location": "Bangalore, India",
+      "url": "https://azimpremjiuniversity.edu.in/",
+      "area": "Physics (Nonlinear Dynamics)",
+      "studyType": "B.Sc. (Hons)",
+      "startDate": "2019",
+      "endDate": "2022",
+      "minor": "Media and Democracy",
+      "courses": [
+        "Advanced Mechanics",
+        "Quantum Mechanics",
+        "Nonlinear Dynamics",
+        "Solid State Physics",
+        "Optics",
+        "Thermodynamics",
+        "Computing in Physics",
+        "Political Philosophy",
+        "Media Studies"
       ]
     }
   ],
-  "languages": [
+  "work": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+      "name": "Forschungszentrum Jülich and University of Cologne",
+      "location": "Cologne, Germany",
+      "position": "Master’s Thesis Researcher",
+      "startDate": "2024",
+      "endDate": "2025",
+      "summary": "Structural Transitions in Optimal Networks",
+      "highlights": [
+        "Supervisor: Prof. Dirk Witthaut",
+        "Groups: Network Science Group (Cologne) and Energy Networks and Complex Systems (FZ Jülich)"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Institute for Applied Physics, University of Bonn",
+      "location": "Bonn, Germany",
+      "position": "Graduate Assistant",
+      "startDate": "2023",
+      "endDate": "2024",
+      "summary": "Nonlinear Quantum Optics group under Prof. Sebastian Hofferberth"
+    },
+    {
+      "name": "Azim Premji University",
+      "location": "Bangalore, India",
+      "position": "Bachelor Thesis Student",
+      "startDate": "2021",
+      "endDate": "2022",
+      "summary": "Investigated Taylor–Couette Flow under the supervision of Dr. Kaustubh Manchanda"
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Impact of Internet Shutdowns on Collective Action in Conflict Regions",
+      "location": "Complexity Science Hub, Vienna, Austria",
+      "startDate": "2025-02",
+      "endDate": "2025-02",
+      "summary": "Winter School project at the Complexity Science Hub, Vienna."
+    },
+    {
+      "name": "Metro Networks Efficiency using Max–Plus Algebra",
+      "location": "Universidad Carlos III de Madrid, Spain",
+      "startDate": "2024-06",
+      "endDate": "2024-06",
+      "summary": "Workshop project on metro network efficiency.",
+      "highlights": ["Supervisor: Dr. Ebrahim Patel"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Student Council, Bonn-Cologne Graduate School of Physics and Astronomy",
+      "position": "Member",
+      "startDate": "2023",
+      "endDate": "2023"
+    },
+    {
+      "organization": "Student Council, Azim Premji University",
+      "position": "Member",
+      "startDate": "2019",
+      "endDate": "2021"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Associate Instructor Fellowship",
+      "date": "2025",
+      "awarder": "Luddy School of Informatics, Computing and Engineering"
+    },
+    {
+      "title": "Summer Fellowship",
+      "date": "2025",
+      "awarder": "Luddy School of Informatics, Computing and Engineering"
+    },
+    {
+      "title": "Lagrange Fellowship (declined)",
+      "date": "2025",
+      "awarder": "ISI Foundation, Turin"
+    },
+    {
+      "title": "International Max Planck Research Scholarship (declined)",
+      "date": "2022",
+      "awarder": "Max Planck Institute for Solid State Physics, Stuttgart"
+    },
+    {
+      "title": "Honor’s Degree",
+      "date": "2022",
+      "awarder": "Azim Premji University, Bangalore"
+    }
+  ],
+  "talks": [
+    {
+      "name": "NetSci Conference",
+      "location": "Maastricht, Netherlands",
+      "date": "2025-06",
+      "summary": "Contributed Talk: Symmetry Breaking in Minimum Dissipation Networks"
+    },
+    {
+      "name": "Infosys Science Foundation",
+      "location": "Bangalore, India",
+      "date": "2022-07",
+      "summary": "Invited Talk"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": ["Python", "Mathematica", "MATLAB", "R"]
+    },
+    {
+      "name": "Libraries",
+      "keywords": ["NetworkX", "NumPy", "SciPy", "pandas", "Qiskit", "seaborn", "sklearn", "iminuit"]
+    },
+    {
+      "name": "Typesetting",
+      "keywords": ["LaTeX"]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Academia",
+      "keywords": ["Philosophy of Science", "Linguistics"]
+    },
+    {
+      "name": "Sports",
+      "keywords": ["Football (Soccer)", "Running"]
+    },
+    {
+      "name": "Arts & Hobbies",
+      "keywords": ["Reading", "Music Instrumentalist"]
     }
   ]
 }

@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+title: My first NetSci Conference
+date: 2025-06-02 
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Attended my first NetSci conference in Maastricht, Netherlands with a contributed talk.
