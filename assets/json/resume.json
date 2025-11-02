@@ -10,7 +10,6 @@
     {
       "institution": "Indiana University Bloomington",
       "location": "Indiana, USA",
-      "url": "https://luddy.indiana.edu/",
       "area": "Complex Networks and Systems",
       "studyType": "Ph.D. in Informatics",
       "startDate": "2025",
@@ -20,42 +19,19 @@
     {
       "institution": "University of Bonn",
       "location": "Bonn, Germany",
-      "url": "https://www.uni-bonn.de/",
       "area": "Theoretical and Experimental Physics, Network Science",
       "studyType": "M.Sc. in Physics",
       "startDate": "2022",
-      "endDate": "2025",
-      "courses": [
-        "Advanced Quantum Theory",
-        "Particle Physics",
-        "Statistical Data Analysis",
-        "Complex Networks and Energy Grids",
-        "Quantum Computing",
-        "Quantum Optics",
-        "Theoretical Neuroscience",
-        "Energy Production"
-      ]
+      "endDate": "2025"
     },
     {
       "institution": "Azim Premji University",
       "location": "Bangalore, India",
-      "url": "https://azimpremjiuniversity.edu.in/",
       "area": "Physics (Nonlinear Dynamics)",
       "studyType": "B.Sc. (Hons)",
       "startDate": "2019",
       "endDate": "2022",
-      "minor": "Media and Democracy",
-      "courses": [
-        "Advanced Mechanics",
-        "Quantum Mechanics",
-        "Nonlinear Dynamics",
-        "Solid State Physics",
-        "Optics",
-        "Thermodynamics",
-        "Computing in Physics",
-        "Political Philosophy",
-        "Media Studies"
-      ]
+      "minor": "Media and Democracy"
     }
   ],
   "work": [
@@ -67,7 +43,7 @@
       "endDate": "2025",
       "summary": "Structural Transitions in Optimal Networks",
       "highlights": [
-        "Supervisor: Prof. Dirk Witthaut",
+        "Supervisor: Prof. Dr. Dirk Witthaut",
         "Groups: Network Science Group (Cologne) and Energy Networks and Complex Systems (FZ Jülich)"
       ]
     },
@@ -77,7 +53,7 @@
       "position": "Graduate Assistant",
       "startDate": "2023",
       "endDate": "2024",
-      "summary": "Nonlinear Quantum Optics group under Prof. Sebastian Hofferberth"
+      "summary": "Nonlinear Quantum Optics group"
     },
     {
       "name": "Azim Premji University",
@@ -88,62 +64,24 @@
       "summary": "Investigated Taylor–Couette Flow under the supervision of Dr. Kaustubh Manchanda"
     }
   ],
-  "projects": [
+  "Schools and Workshops": [
     {
-      "name": "Impact of Internet Shutdowns on Collective Action in Conflict Regions",
+      "name": "Complexity Science Winter School",
       "location": "Complexity Science Hub, Vienna, Austria",
       "startDate": "2025-02",
-      "endDate": "2025-02",
-      "summary": "Winter School project at the Complexity Science Hub, Vienna."
+      "endDate": "2025-02"
     },
     {
-      "name": "Metro Networks Efficiency using Max–Plus Algebra",
+      "name": "Complexity72h Workshop",
       "location": "Universidad Carlos III de Madrid, Spain",
       "startDate": "2024-06",
-      "endDate": "2024-06",
-      "summary": "Workshop project on metro network efficiency.",
-      "highlights": ["Supervisor: Dr. Ebrahim Patel"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Student Council, Bonn-Cologne Graduate School of Physics and Astronomy",
-      "position": "Member",
-      "startDate": "2023",
-      "endDate": "2023"
+      "endDate": "2024-06"
     },
     {
-      "organization": "Student Council, Azim Premji University",
-      "position": "Member",
-      "startDate": "2019",
-      "endDate": "2021"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Associate Instructor Fellowship",
-      "date": "2025",
-      "awarder": "Luddy School of Informatics, Computing and Engineering"
-    },
-    {
-      "title": "Summer Fellowship",
-      "date": "2025",
-      "awarder": "Luddy School of Informatics, Computing and Engineering"
-    },
-    {
-      "title": "Lagrange Fellowship (declined)",
-      "date": "2025",
-      "awarder": "ISI Foundation, Turin"
-    },
-    {
-      "title": "International Max Planck Research Scholarship (declined)",
-      "date": "2022",
-      "awarder": "Max Planck Institute for Solid State Physics, Stuttgart"
-    },
-    {
-      "title": "Honor’s Degree",
-      "date": "2022",
-      "awarder": "Azim Premji University, Bangalore"
+      "name": "Spring College on the Physics of Complex Systems",
+      "location": "International Center for Theoretical Physics (ICTP), Trieste, Italy",
+      "startDate": "2024-02",
+      "endDate": "2024-03"
     }
   ],
   "talks": [
