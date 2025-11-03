@@ -64,40 +64,6 @@
       "summary": "Investigated Taylor–Couette Flow under the supervision of Dr. Kaustubh Manchanda"
     }
   ],
-  "schools and workshops": [
-    {
-      "name": "Complexity Science Winter School",
-      "location": "Complexity Science Hub, Vienna, Austria",
-      "startDate": "2025-02",
-      "endDate": "2025-02"
-    },
-    {
-      "name": "Complexity72h Workshop",
-      "location": "Universidad Carlos III de Madrid, Spain",
-      "startDate": "2024-06",
-      "endDate": "2024-06"
-    },
-    {
-      "name": "Spring College on the Physics of Complex Systems",
-      "location": "International Center for Theoretical Physics (ICTP), Trieste, Italy",
-      "startDate": "2024-02",
-      "endDate": "2024-03"
-    }
-  ],
-  "talks": [
-    {
-      "name": "NetSci Conference",
-      "location": "Maastricht, Netherlands",
-      "date": "2025-06",
-      "summary": "Contributed Talk: Symmetry Breaking in Minimum Dissipation Networks"
-    },
-    {
-      "name": "Infosys Science Foundation",
-      "location": "Bangalore, India",
-      "date": "2022-07",
-      "summary": "Invited Talk"
-    }
-  ],
   "skills": [
     {
       "name": "Programming",
