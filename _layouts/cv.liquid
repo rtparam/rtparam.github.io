@@ -101,6 +101,10 @@ layout: default
                   {% include resume/volunteer.liquid %}
                 {% when 'projects' %}
                   {% include resume/projects.liquid %}
+                {% when 'schools and workshops' %}
+                  {% include resume/schools_and_workshops.liquid %}
+                {% when 'talks' %}
+                  {% include resume/talks.liquid %}
                 {% when 'awards' %}
                   {% include resume/awards.liquid %}
                 {% when 'skills' %}
@@ -115,25 +119,8 @@ layout: default
                   {% include resume/certificates.liquid %}
                 {% when 'references' %}
                   {% include resume/references.liquid %}
-                {% when 'talks' %}
-                  <ul class="list-unstyled">
-                    {% for t in data[1] %}
-                      <li>
-                        <strong>{{ t.name }}</strong>{% if t.location %} — {{ t.location }}{% endif %}{% if t.date %} ({{ t.date }}){% endif %}
-                        {% if t.summary %} — {{ t.summary }}{% endif %}
-                      </li>
-                    {% endfor %}
-                  </ul>
-                {% when 'schools and workshops' %}
-                  <ul class="list-unstyled">
-                    {% for s in data[1] %}
-                      <li>
-                        <strong>{{ s.name }}</strong>{% if s.location %} — {{ s.location }}{% endif %}
-                        {% if s.startDate or s.endDate %} ({{ s.startDate }}{% if s.endDate %} - {{ s.endDate }}{% endif %}){% endif %}
-                      </li>
-                    {% endfor %}
-                  </ul>
                 {% else %}
+
               {% endcase %}
             </div>
           </div>
