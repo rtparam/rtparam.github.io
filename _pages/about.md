@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Network Science | Complex Systems | Physics | Informatics
+subtitle: pronouns:she/her
 
 profile:
   align: right
