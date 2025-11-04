@@ -23,7 +23,21 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-post-with-plotly-js",
+        },{id: "dropdown-bookshelf",
+              title: "bookshelf",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "https://paint-soccer-637.notion.site/29aa1acebe298180a55fd40229ea2f89?v=29aa1acebe29816baeaf000ca9fe91d6";
+              },
+            },{id: "dropdown-florilegium",
+              title: "florilegium",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "https://paint-soccer-637.notion.site/296a1acebe298052956dc63b5ee1814e?v=296a1acebe2981c8925e000c90caffac";
+              },
+            },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
