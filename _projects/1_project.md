@@ -1,14 +1,12 @@
 ---
 layout: page
-title: Prediction Markets as a Complex Adaptive System
-description: Final Paper for Advanced Seminar on Complex Systems
-importance: 1
-category: work
-related_publications: true
+title: Prediction Markets as Complex Adaptive Systems
+description: Final Paper for Advanced Seminar on Complex Systems that has resulted in an ongoing collaboration to use hyper neural networks and agent-based modelling to study behavior on prediction markets. 
+importance: 2
+category: research
+
 ---
 
-
-# Prediction Markets as Complex Adaptive Systems
 
 **INFO709 Final Paper**  
 Fall Semester 2025  
@@ -16,203 +14,116 @@ Aarathi Parameswaran
 
 ---
 
-## Prediction Markets
 
-Prediction markets are platforms or institutional mechanisms in which participants buy and sell contracts tied to the outcomes of future events. These markets are designed to elicit and aggregate dispersed information from participants, thereby producing collective forecasts. Also referred to as information markets or idea futures[^1], prediction markets operate by allowing traders to express beliefs through prices.
 
-Contracts typically pay a fixed amount if a specified outcome occurs. The market price of a contract is interpreted as the probability of the corresponding event, reflecting the aggregate belief of market participants. For example, if a contract paying 1 USD conditional on an event trades at 0.60 USD, the market-implied probability of that event is 60%. In this sense, prediction market prices function as market-aggregated probabilistic forecasts.
 
-Although prediction markets have existed and been studied for several decades (such as the Iowa Electronic Markets), their prominence has increased markedly over the past five years. The growth of online infrastructures, digital communities, and social media has enabled large-scale platforms such as Polymarket, Kalshi, Manifold, and PredictIt[^2]. During the 2024 U.S. election cycle, nearly USD 2.4 billion was wagered across online prediction markets between September 1 and Election Day[^3].
+# Prediction Markets
 
-Because these markets operate online, they generate rich, high-frequency data on how individuals perceive uncertain events. Contemporary platforms increasingly shape public expectations, media narratives, and political discourse.
+Prediction markets are platforms or institutional mechanisms in which participants buy and sell contracts tied to the outcomes of future events. These markets are designed to elicit and aggregate dispersed information from participants, thereby producing collective forecasts. Also referred to as information markets or idea futures [1], prediction markets operate by allowing traders to express beliefs through prices. Contracts typically pay a fixed amount if a specified outcome occurs. The market price of a contract is interpreted as the probability of the corresponding event, reflecting the aggregate belief of market participants. For example, if a contract paying 1 USD conditional on an event trades at 0.60 USD, the market-implied probability of that event is 60%. In this sense, prediction market prices function as market-aggregated probabilistic forecasts.
+
+Although prediction markets have existed and been studied for several decades (like the Iowa Electronic Markets or IEM), their prominence has increased markedly over the past five years. The growth of online market infrastructures, digital communities, and social media has enabled the growth of large-scale platforms such as Polymarket, Kalshi, Manifold and PredictIt, renewing interest in prediction markets as forecasting tools [2]. These platforms frequently focus on highly salient and polarizing topics, including elections, geopolitical conflicts, sports, and cryptocurrency, thereby attracting substantial public attention [3]. During the 2024 U.S. election cycle, for instance, nearly USD 2.4 billion was wagered across online prediction markets between September 1 and Election Day [4].
+
+Because these markets operate online, they generate rich, high-frequency data on how individuals perceive uncertain events. Empirical studies typically evaluate their performance by comparing market-implied probabilities with realized outcomes, measuring forecasting accuracy and efficiency. While earlier prediction markets were largely confined to controlled academic experiments, contemporary platforms increasingly shape public expectations, media narratives, and political discourse.
 
 ---
 
-## How Predictive Are These Markets?
+### How predictive are these markets?
 
-Prediction markets are often promoted as superior forecasting tools, claimed to outperform traditional polling due to:
+Prediction markets have long been promoted as superior forecasting tools, often claimed to outperform traditional information aggregation methods such as polling. This is owing to their properties of information revelation, rewarding and punishing participants, an inherent weighting mechanism for the information provided, scalability and real-time operation [5]. Contemporary online platforms make particularly strong claims about their predictive power, frequently citing anecdotal evidence from the 2024 U.S. elections. During this period, market-implied probabilities on platforms such as Polymarket and Kalshi diverged substantially from polling estimates. Online prediction markets are also designed to maintain anonymity since they use blockchain technology, as opposed to other conventional forms [5]. In response, these platforms have increasingly framed themselves as “truth-telling” oracles that reveal underlying political realities more accurately than conventional polling methods.
 
-- Information revelation  
-- Financial incentives  
-- Implicit weighting of informed traders  
-- Real-time updating  
-- Scalability[^4]
+> **From Polymarket's documentation [6]:**  
+> *Polymarket is the world's largest prediction market, allowing you to stay informed and profit from your knowledge by betting on future events across various topics. Studies show prediction markets are often more accurate than pundits because they combine news, polls, and expert opinions into a single value that represents the market's view of an event's odds. Our markets reflect accurate, unbiased, and real-time probabilities for the events that matter most to you. Markets seek truth.*
 
-Online platforms frequently frame themselves as “truth-telling” oracles.
+As a result, prediction market prices are often treated as credible reflections of public expectations. However, this perception persists despite evidence of substantial volatility in market prices, at times driven by the actions of a small number of large traders. Such dynamics raise questions about whether observed prices reflect broadly aggregated beliefs or instead the influence of concentrated capital.
 
-> **From Polymarket's documentation:**  
-> *Markets reflect accurate, unbiased, and real-time probabilities for the events that matter most. Markets seek truth.*[^5]
+The purported truth-telling capacity of prediction markets is commonly justified through the logic of the “wisdom of crowds”, under the assumption that participants possess diverse information and are incentivized to act on it, market prices should efficiently aggregate dispersed knowledge. This leads to a central empirical question: when large financial stakes and heightened public attention are present, do prediction markets in fact aggregate political information accurately and efficiently?
 
-However, substantial volatility and concentrated capital raise questions about whether prices reflect broad information aggregation or the influence of a few large traders.
-
-A recent study analyzing nearly 2,500 political prediction markets during the final five weeks of the 2024 U.S. presidential campaign found substantial variation across platforms[^3]:
-
-- PredictIt: 93% accuracy  
-- Kalshi: 78% accuracy  
-- Polymarket: 67% accuracy  
-
-Prices for identical contracts diverged across exchanges, daily price changes were weakly or negatively correlated, and arbitrage opportunities persisted. This variation suggests that accuracy depends on institutional and behavioral factors rather than mechanism design alone.
+Empirical evidence reveals substantial variation across these different online platforms. A recent study by Clinton and Huang [4] analyzed nearly 2,500 political prediction markets across four platforms during the final five weeks of the 2024 U.S. presidential campaign, finding that while 93% of PredictIt markets correctly predicted outcomes better than chance, accuracy fell to 78% on Kalshi and 67% on Polymarket. Even the supposedly most accurate markets showed little evidence of efficiency, as prices for identical contracts diverged across exchanges, daily price changes were weakly or negatively correlated, and arbitrage opportunities also persisted.
 
 ---
 
 ## Economic Models of Prediction Markets
 
-Neoclassical economic theory models prediction markets under rational expectations and the Efficient Market Hypothesis.
+Economic studies of prediction markets have primarily operated within the neoclassical framework, grounding analysis in rational expectations equilibrium and the Efficient Market Hypothesis. Wolfers and Zitzewitz's foundational survey [1] exemplifies this approach.
 
-Wolfers and Zitzewitz argue that prediction markets efficiently aggregate dispersed information, with prices reflecting collective beliefs[^1]. Under weak-form efficiency, public information should not allow systematic profits.
+Grossman demonstrates equilibrium price aggregation under CARA utility and normally distributed signals [7]. Wolfers and Zitzewitz extend this result under logarithmic utility assumptions [1].
 
-However, major theoretical tensions arise:
-
-- **Milgrom–Stokey no-trade theorem:** Under common priors and rational expectations, no trade should occur[^6].
-- **Grossman–Stiglitz paradox:** If prices are perfectly efficient, no one would gather costly information[^7].
-
-Empirically, prediction markets often perform well but display persistent anomalies:
-
-- Favorite–longshot bias  
-- Bubbles in experimental settings  
-- Cross-platform arbitrage  
-- Serial correlation in price movements  
-
-These inconsistencies motivate an alternative framework.
+The Milgrom-Stokey no-trade theorem [8] and the Grossman-Stiglitz paradox [9] challenge the theoretical coherence of fully efficient markets.
 
 ---
 
 ## Prediction Markets as Complex Adaptive Systems
 
-Holland and Miller define complex adaptive systems as networks of interacting adaptive agents producing emergent aggregate behavior[^8].
+Prediction markets exhibit the defining properties of complex adaptive systems described by Holland and Miller [10].
 
-Prediction markets meet these criteria:
-
-1. Networked interacting agents  
-2. Emergent price formation  
-3. Adaptive strategy updating  
-4. Profit/loss feedback  
-5. Macrobehavior independent of micro-detail  
-
-Clinton and Huang document regime-dependent behavior during the 2024 election cycle[^3]:
-
-- Polymarket exhibited negative serial correlation ($\bar{\rho} = -0.324$).
-- Arbitrage opportunities persisted on 95% of days.
-- Prices sometimes moved without identifiable political events.
-
-These findings suggest internal dynamics and feedback loops drive outcomes.
+Clinton and Huang document regime-dependent behavior inconsistent with equilibrium predictions [4].
 
 ---
 
-## Mechanisms in Complex Adaptive Markets
+## Mechanisms of Information Aggregation in Complex Adaptive Markets
 
-### 1. Bounded Rationality and Adaptive Ecologies
+### Bounded Rationality and Adaptive Ecologies
 
-Arthur’s inductive reasoning framework proposes that traders use competing heuristics rather than computing rational expectations[^9]. Building on Simon’s bounded rationality[^10], agents rely on satisficing rules.
+Arthur's inductive reasoning framework [11], building on Simon's bounded rationality [12], explains why trade persists despite the no-trade theorem [8].
 
-In Arthur’s El Farol model:
-
-- Agents maintain multiple forecasting strategies.
-- Successful strategies become overcrowded.
-- Overcrowding reduces effectiveness.
-- Agents shift strategies dynamically.
-
-Prediction markets may operate as evolving ecologies of predictors rather than converging toward equilibrium.
-
-Negative serial correlation on Polymarket is consistent with overcrowded momentum strategies followed by contrarian corrections[^3].
+Polymarket exhibited negative serial correlation in daily price changes, $\bar{\rho} = -0.324$ [4].
 
 ---
 
-### 2. Information Cascades and Path Dependence
+### Information Cascades and Path Dependence
 
-Reynolds’ BOID model demonstrates how complex collective behavior emerges from simple local interaction rules[^11].
+Reynolds' BOID model [13] illustrates emergent coordination.
 
-In prediction markets:
+Arthur's increasing returns framework [14] explains potential lock-in.
 
-- Alignment → Herding  
-- Separation → Contrarian betting  
-- Cohesion → Price convergence  
-
-Arthur’s increasing returns theory explains how early advantages become self-reinforcing[^12]. Markets may lock into inaccurate forecasts through feedback loops.
-
-Governance determines returns regimes:
-
-- IEM and PredictIt impose caps, creating diminishing returns[^13].
-- Polymarket’s unlimited crypto stakes create increasing returns and whale amplification[^3].
+Berg and Rietz document manipulation resistance through design constraints [15].
 
 ---
 
-### 3. Institutional Governance
+### Institutional Governance and Design Principles
 
-Ostrom’s principles for governing commons apply to prediction markets as information commons[^14].
+Ostrom's design principles for governing commons [16] help explain institutional divergence.
 
-| Principle | IEM / PredictIt | Polymarket | Outcome |
-|------------|----------------|------------|----------|
-| Clear boundaries | $500–$850 caps | Unlimited stakes | Whale dominance on Polymarket |
-| Monitoring | Self-enforcing arbitrage | Weak enforcement | Persistent arbitrage |
-| Accuracy | 93% | 67% | Governance shapes performance |
-
-Governance structures influence whether markets aggregate information or amplify noise.
-
----
-
-### 4. Endogenous Preferences and Cultural Selection
-
-Bowles shows institutions shape preferences via socialization, framing, and learning[^15].
-
-Platforms cultivate distinct trader ecologies:
-
-- **Polymarket:** Speculation, visibility, momentum  
-- **PredictIt:** Academic culture, smaller stakes, accuracy orientation  
-
-Niche construction theory explains how platforms and traders co-evolve[^16].
+| Ostrom Principle | IEM/PredictIt | Polymarket | Observed Effect |
+|------------------|--------------|------------|----------------|
+| 1. Clear boundaries | $500 cap (IEM), $850 + 5K traders [15] | Unlimited crypto stakes [4] | Whale dominance on Polymarket |
+| 2. Congruent rules | Unit portfolio arbitrage [15] | Separate contracts | Persistent arbitrage |
+| 4. Monitoring | Self-enforcing via arbitrage [15] | Minimal; arbitrage persists [4] | 95% of days show arbitrage |
+| **Accuracy** | 93% (PredictIt) [4] | 67% (Polymarket) [4] | Governance shapes outcomes |
 
 ---
 
-## Regime Dynamics
+### Endogenous Preferences and Cultural Selection
 
-Two possible regimes emerge:
+Bowles demonstrates endogenous preference formation [17].
 
-### Information-Aggregating Regime
-- Governance constraints  
-- Predictor diversity  
-- Accuracy-motivated traders  
-- Strong monitoring  
-
-### Noise-Amplifying Regime
-- Whale dominance  
-- Momentum amplification  
-- Speculative culture  
-- Weak monitoring  
-
-Accuracy is not inherent to market design. It is contingent on governance and institutional structure.
+Niche construction theory explains co-evolutionary dynamics [18].
 
 ---
 
 ## Conclusion
 
-Prediction markets are not probability oracles. They are evolving complex adaptive systems shaped by:
-
-- Institutional design  
-- Returns regimes  
-- Network topology  
-- Cultural selection  
-- Historical path dependence  
-
-Early governance choices shape long-term trajectories. Accuracy depends on maintaining institutional conditions that promote information aggregation over self-reinforcing speculation.
+Accuracy is not an inherent property of prediction market mechanisms, contrary to claims by platforms like Polymarket that "markets seek truth" [6], but an achieved outcome dependent on governance structures, returns regimes, network topology, and trader ecology.
 
 ---
 
 ## References
 
-[^1]: Wolfers, J., & Zitzewitz, E. (2006). *Prediction Markets*.  
-[^2]: Wingard (2025). Polymarket growth analysis.  
-[^3]: Clinton, J., & Huang (2025). 2024 election prediction market study.  
-[^4]: Buckley (2024). Blockchain and forecasting markets.  
-[^5]: Polymarket documentation (2024).  
-[^6]: Milgrom, P., & Stokey, N. (1982). No-trade theorem.  
-[^7]: Grossman, S., & Stiglitz, J. (1976). Informational efficiency paradox.  
-[^8]: Holland, J., & Miller, J. (1991). Complex adaptive systems.  
-[^9]: Arthur, W. B. (1994). Inductive reasoning and bounded rationality.  
-[^10]: Simon, H. (1991). Bounded rationality.  
-[^11]: Reynolds, C. (1987). Flocks, herds, and schools.  
-[^12]: Arthur, W. B. (1989). Competing technologies and lock-in.  
-[^13]: Berg, J., & Rietz, T. (2014). Market design and manipulation resistance.  
-[^14]: Ostrom, E. (2000). Governing the commons.  
-[^15]: Bowles, S. (1998). Endogenous preferences.  
-[^16]: Odling-Smee et al. (1996). Niche construction theory.  
+1. Wolfers, J., & Zitzewitz, E. (2006). *Prediction Markets*.  
+2. Wingard (2025). Polymarket growth analysis.  
+3. Froman (2025). Rise of online prediction platforms.  
+4. Clinton, J., & Huang (2025). Political prediction markets in the 2024 U.S. election.  
+5. Buckley (2024). Blockchain-based prediction markets.  
+6. Polymarket (2024). What is Polymarket? Official documentation.  
+7. Grossman, S. (1976). On the efficiency of competitive stock markets.  
+8. Milgrom, P., & Stokey, N. (1982). Information, trade and common knowledge.  
+9. Grossman, S., & Stiglitz, J. (1976). On the impossibility of informationally efficient markets.  
+10. Holland, J., & Miller, J. (1991). Artificial adaptive agents in economic theory.  
+11. Arthur, W. B. (1994). Inductive reasoning and bounded rationality.  
+12. Simon, H. (1991). Bounded rationality and organizational learning.  
+13. Reynolds, C. (1987). Flocks, herds, and schools: A distributed behavioral model.  
+14. Arthur, W. B. (1989). Competing technologies and lock-in by historical events.  
+15. Berg, J., & Rietz, T. (2014). Prediction markets as decision support systems.  
+16. Ostrom, E. (2000). Collective action and the evolution of social norms.  
+17. Bowles, S. (1998). Endogenous preferences.  
+18. Odling-Smee, F. J., et al. (1996). Niche construction.
