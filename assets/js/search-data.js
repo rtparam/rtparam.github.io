@@ -58,21 +58,16 @@ ninja.data = [{
           section: "News",},{id: "news-i-started-my-ph-d-in-informatics-at-indiana-univeristy-bloomington",
           title: 'I started my Ph.D. in Informatics at Indiana Univeristy Bloomington!',
           description: "",
-          section: "News",},{id: "projects-prediction-markets-as-complex-adaptive-systems",
-          title: 'Prediction Markets as Complex Adaptive Systems',
-          description: "Final Paper for Advanced Seminar on Complex Systems that has resulted in an ongoing collaboration to use hyper neural networks and agent-based modelling to study behavior on prediction markets.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-bridge-criticality-in-a-spatial-road-network",
+          section: "News",},{id: "projects-bridge-criticality-in-a-spatial-road-network",
           title: 'Bridge Criticality in a Spatial Road Network',
           description: "Ongoing research with Prof. Filippo Radicchi at Indiana University",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/bridges_road_network/";
+            },},{id: "projects-prediction-markets-as-complex-adaptive-systems",
+          title: 'Prediction Markets as Complex Adaptive Systems',
+          description: "Final Paper for Advanced Seminar on Complex Systems that has resulted in an ongoing collaboration to use hyper neural networks and agent-based modelling to study behavior on prediction markets.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
+              window.location.href = "/projects/prediction_markets/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
