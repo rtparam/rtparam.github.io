@@ -69,6 +69,7 @@ A recent paper that addresses this concern of the potential inaccuracy of inform
 
 The following sections attempt to describe a potential complexity science framework that could explain the mechanisms generating the empirical patterns Clinton and Huang [6] paper. Rather than treating outcomes as scattered anomalies, this approach can potentially show whether these emerge systematically from interactions among different mechanisms drawing from a part of the corpus from Volumes 3 and 4 of the Foundational Papers [11], to address the empirical patterns and attempt to resolve theoretical inconsistencies that neoclassical models fail to explain. These interacting mechanisms could determine whether prediction markets aggregate information or amplify noise, and when this occurs.
 
+
 ---
 
 # 1.3 Mechanisms of Information Aggregation in Complex Adaptive Markets
