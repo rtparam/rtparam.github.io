@@ -21,9 +21,17 @@ Here, using National Bridge Inventory data from the Long Term Bridge Performance
 
 Accounting for bridge feature conditions and daily traffic volume highlights the bridges that are critical in disconnecting the network and delays in travel time caused by their disruption can be identified. The figure shows the case for a single county in the state of Iowa, where a small subset of bridges removed lead to non-trivial delays and disconnection of the network. This framework when extended to the entire system can be used to provide actionable insights for infrastructure resilience and planning in the event of disruptions caused by systemic failures or natural disasters.
 
-{% include figure.liquid loading="eager" path="assets/img/reachability_map_combined_risk_page-0001.jpg" class="img-fluid rounded z-depth-1" caption="Reachability map showing combined risk assessment for bridges in Iowa county" %}
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/reachability_map_combined_risk_page-0001.jpg" class="img-fluid rounded z-depth-1" caption="Reachability map showing combined risk assessment for bridges in Iowa county" %}
+    </div>
+</div>
 
-{% include figure.liquid loading="eager" path="assets/img/network_fragmentation_page-0001.jpg" class="img-fluid rounded z-depth-1" caption="Network fragmentation analysis showing the impact of bridge removal on connectivity" %}
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/network_fragmentation_page-0001.jpg" class="img-fluid rounded z-depth-1" caption="Network fragmentation analysis showing the impact of bridge removal on connectivity" %}
+    </div>
+</div>
 
 ---
 
